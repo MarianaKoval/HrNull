@@ -18,8 +18,7 @@ import java.math.BigDecimal;
         }
     }
     class CalculatorFrame extends JFrame {
-        public CalculatorFrame() {
-            setTitle("Калькулятор java-lessons.ru");
+        public CalculatorFrame() 
             CalculatorPanel panel = new CalculatorPanel();
             add(panel);
             pack();
